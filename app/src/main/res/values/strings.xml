@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DV_android</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="nome">Nome</string>
+</resources>
