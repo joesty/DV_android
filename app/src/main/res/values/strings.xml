@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DV_android</string>
+    <string name="title_activity_another">AnotherActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_questions">QuestionsActivity</string>
+</resources>
