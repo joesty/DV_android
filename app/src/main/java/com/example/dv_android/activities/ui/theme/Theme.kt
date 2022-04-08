@@ -1,17 +1,15 @@
-package com.example.dv_android.ui.theme
+package com.example.dv_android.activities.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.graphics.Color
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,
     primaryVariant = Purple700,
-    secondary = Teal200,
-    background = Color.DarkGray
+    secondary = Teal200
 )
 
 private val LightColorPalette = lightColors(
@@ -34,7 +32,7 @@ fun DV_androidTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Compos
     val colors = if (darkTheme) {
         DarkColorPalette
     } else {
-        DarkColorPalette
+        LightColorPalette
     }
 
     MaterialTheme(
