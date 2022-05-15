@@ -140,7 +140,8 @@ class LoginActivity : ComponentActivity() {
                 Button(onClick = {
                     val navigate = Intent(this@LoginActivity, TesteActivity::class.java)
                     tryNext = true
-                    if(validEmail && validPassword) {
+                    //if(validEmail && validPassword) {
+                    if(true){
                         startActivity(navigate)
                     }
                 }) {

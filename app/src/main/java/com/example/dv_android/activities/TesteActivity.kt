@@ -293,7 +293,10 @@ class TesteActivity : ComponentActivity() {
                 expanded = expanded.value,
                 onDismissRequest = { expanded.value = false }
             ) {
-                DropdownMenuItem(onClick = { /*TODO*/ }) {
+                DropdownMenuItem(onClick = {
+                    val navigate = Intent(this@TesteActivity, ProfileActivity::class.java)
+                    startActivity(navigate)
+                }) {
                     Text(text = "Meu Perfil")
                 }
                 DropdownMenuItem(onClick = { /*TODO*/ }) {

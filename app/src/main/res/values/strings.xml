@@ -5,4 +5,6 @@
     <string name="title_activity_signup">SignupActivity</string>
     <string name="title_activity_questions">QuestionsActivity</string>
     <string name="title_activity_teste">TesteActivity</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_feed">FeedActivity</string>
 </resources>
